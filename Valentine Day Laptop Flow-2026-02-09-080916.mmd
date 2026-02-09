@@ -1,0 +1,12 @@
+---
+config:
+  layout: elk
+---
+flowchart LR
+    A@{ label: "<p>Valentine's Day ❤️</p>" } -- <p>Plan surprise</p> --> B("<p>Go shopping 🎁</p>")
+    B --> C{"<p>What gift to choose?</p>"}
+    C -- <p>Romantic</p> --> D["<p>Flowers 🌹</p>"]
+    C -- <p>Special</p> --> E["<p>Dinner Date 🍽️</p>"]
+    C -- <p>Big surprise</p> --> F["<p>fa:fa-gift Gift 🎀</p>"]
+
+    A@{ shape: rect}
